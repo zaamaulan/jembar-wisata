@@ -15,13 +15,20 @@ use Illuminate\Support\Facades\Route;
 */
 
 Route::get('/', function () {
-    return view('welcome');
-});
-
-Route::get('/home', function () {
     return view('home');
 });
 
-Route::get('/post', [PostController::class, 'index']); // Post Controller with index function
+Route::get('/fasilitas', function () {
+    return view('fasilitas');
+});
+Route::get('/blog', function () {
+    return view('blog');
+});
+Route::get('/promo', function () {
+    return view('promo');
+});
+Route::get('/pesan-tiket', function () {
+    return view('pesan-tiket');
+});
 
-Route::get('/fasilitas', [FasilitasController::class, 'index']); // Fasilitas Controller with index function
+Route::get('/post', [PostController::class, 'index']); // Post Controller with index function
