@@ -1,0 +1,1 @@
+<button class="text-white text-sm font-semibold leading-tigh bg-sky-400 px-5 py-[10px] rounded-md {{ $style }} "><a href="/pesan-tiket">Pesan TIket</a></button>
