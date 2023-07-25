@@ -39,4 +39,8 @@ Route::get('fasilitas/PatungPatungUnik', function () {
     return view('PatungPatungUnik');
 });
 
+Route::get('fasilitas/FasilitasNonAir', function () {
+    return view('FasilitasNonAir');
+});
+
 Route::get('/post', [PostController::class, 'index']); // Post Controller with index function

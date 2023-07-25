@@ -38,7 +38,7 @@
     <!-- 2 -->
     <div class="flex mt-14">
         <div class="flex  capitalize">
-            <img src="/patung2.jpg" alt="" class="rounded-lg w-1/3 h-60">
+            <img src="/patung2.png" alt="" class="rounded-lg w-1/3 h-60">
             <div class="flex flex-col ml-10 mt-14 w-7/12">
                 <h1 class="text-neutral-700 text-[30px] font-semibold text-left ">Patung-patung Unik</h1>
                 <p class="mt-3 text-gray-500 text-[15px]">
@@ -60,7 +60,7 @@
                 <p class="mt-3 text-gray-500 text-[15px]">
                 Nikmati sensasinya di kolam arus Jembar Waterpark. Anda akan bergerak di atas pelampung sepanjang kolam arus, sambil memandangi keindahan alam di sekitarnya.
                 </p>
-                <a href="#" class="mt-4 text-gray-700 text-[15px] font-semibold">
+                <a href="fasilitas/FasilitasNonAir" class="mt-4 text-gray-700 text-[15px] font-semibold">
                     Baca Selengkapnya
                 </a>
             </div>
