@@ -31,4 +31,8 @@ Route::get('/pesan-tiket', function () {
     return view('pesan-tiket');
 });
 
+Route::get('fasilitas/KolamRenangAnak', function () {
+    return view('KolamRenangAnak');
+});
+
 Route::get('/post', [PostController::class, 'index']); // Post Controller with index function

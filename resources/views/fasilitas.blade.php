@@ -15,7 +15,7 @@
         <br>
         air hingga non-air. Berikut beberapa fasilitas yang ada di Jembar Raya
         <br>
-        Waterparkp
+        Waterpark
         </p>
     </div>
 
@@ -28,7 +28,7 @@
                 <p class="mt-3 text-gray-500 text-[15px]">
                     Sebagaimana namanya, tentu Jember Waterpark menawarkan aneka wahana air yang mengasyikkan. Waterboom, misalnya.
                 </p>
-                <a href="#" class="mt-4 text-gray-700 text-[15px] font-semibold">
+                <a href="fasilitas/KolamRenangAnak" class="mt-4 text-gray-700 text-[15px] font-semibold">
                     Baca Selengkapnya
                 </a>
             </div>
