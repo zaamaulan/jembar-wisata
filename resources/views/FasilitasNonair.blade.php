@@ -44,19 +44,27 @@
             </p>
             <h1 class="text-neutral-700 text-[30px] font-bold text-left">Berkuda</h1>
             <p class="text-neutral-600 text-[15px] mb-8">
-                Water slide adalah wahana permainan air berupa seluncuran yang bisa dilalui oleh anak-anak. Water slide di Kolam Renang Anak di Jembar Waterpark Majalengka memiliki berbagai macam bentuk dan ukuran, yang bisa disesuaikan dengan usia anak.
+                Jembar Waterpark Majalengka juga menyediakan fasilitas berkuda bagi pengunjung yang ingin merasakan pengalaman berkuda di alam terbuka. Pengunjung dapat berkuda di sekitar taman air atau di area hutan yang berada di sekitar taman air. Berkuda adalah kegiatan yang menyenangkan untuk dilakukan bersama keluarga dan teman-teman. 
             </p>
             <h1 class="text-neutral-700 text-[30px] font-bold text-left">ATV</h1>
             <p class="text-neutral-600 text-[15px] mb-8">
-                Ember tumpah adalah wahana permainan air berupa ember besar yang berisi air. Ember tumpah akan secara berkala tumpah ke kolam, yang akan membuat anak-anak merasa senang dan terhibur.
+                Jembar Waterpark Majalengka juga menyediakan fasilitas ATV bagi pengunjung yang ingin menjelajahi area taman air dengan lebih cepat dan mudah. Pengunjung dapat mengendarai ATV di sekitar taman air atau di area hutan yang berada di sekitar taman air. Mengendarai ATV adalah kegiatan yang menyenangkan untuk dilakukan bersama keluarga dan teman-teman.
             </p>
             <h1 class="text-neutral-700 text-[30px] font-bold text-left">Fasilitas Lainnya</h1>
             <p class="text-neutral-600 text-[15px] mb-5">
-                Air mancur adalah wahana permainan air berupa pancuran air yang bisa dinikmati oleh anak-anak. Air mancur di Kolam Renang Anak di Jembar Waterpark Majalengka memiliki berbagai macam bentuk dan warna, yang akan membuat anak-anak merasa senang dan terhibur. 
+                Selain berkuda dan ATV, Jembar Waterpark Majalengka juga menyediakan fasilitas lainnya seperti:
             </p>
-            <p class="text-neutral-600 text-[15px] mb-2">
-                Kolam Renang Anak di Jembar Waterpark Majalengka adalah tempat yang sangat cocok untuk anak-anak bermain air dan bersenang-senang. Kolam ini memiliki berbagai macam wahana permainan air yang menarik dan fasilitas yang lengkap, yang akan membuat anak-anak merasa nyaman bermain air.
+                    <ul class="text-neutral-600 text-[15px] mb-5 list-disc mx-10">
+                        <li>Restoran</li>
+                        <li>Kafe</li>
+                        <li>Area bermain anak-anak</li>
+                        <li>Mushola</li>
+                        <li>Tempat parkir yang luas</li>
+                    </ul>
+            <p class="text-neutral-600 text-[15px]">
+                Jembar Waterpark Majalengka adalah tempat yang cocok untuk menghabiskan waktu bersama keluarga dan teman-teman. Taman air ini menawarkan berbagai wahana dan fasilitas yang menarik dan menyenangkan untuk semua usia.
             </p>
+            <br><br>
         </div>
     </section>
 @endsection

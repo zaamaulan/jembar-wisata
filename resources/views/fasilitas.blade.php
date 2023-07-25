@@ -23,7 +23,7 @@
     <div class="flex mt-20">
         <div class="flex  capitalize">
             <img src="/patung.jpg" alt="" class="rounded-lg w-1/3 h-60">
-            <div class="flex flex-col ml-10 mt-14 w-7/12">
+            <div class="flex flex-col ml-10 mt-10 w-7/12">
                 <h1 class="text-neutral-700 text-[30px] font-semibold text-left ">Kolam Renang Anak</h1>
                 <p class="mt-3 text-gray-500 text-[15px]">
                     Sebagaimana namanya, tentu Jember Waterpark menawarkan aneka wahana air yang mengasyikkan. Waterboom, misalnya.
@@ -39,7 +39,7 @@
     <div class="flex mt-14">
         <div class="flex  capitalize">
             <img src="/patung2.png" alt="" class="rounded-lg w-1/3 h-60">
-            <div class="flex flex-col ml-10 mt-14 w-7/12">
+            <div class="flex flex-col ml-10 mt-10 w-7/12">
                 <h1 class="text-neutral-700 text-[30px] font-semibold text-left ">Patung-patung Unik</h1>
                 <p class="mt-3 text-gray-500 text-[15px]">
                     Pada saat musim liburan Jembar Waterpark selalu di padati pengunjung dari berbagai daerah di Indonesia.
@@ -55,7 +55,7 @@
     <div class="flex mt-14">
         <div class="flex  capitalize">
             <img src="/saung.jpg" alt="" class="rounded-lg w-1/3 h-60">
-            <div class="flex flex-col ml-10 mt-14 w-7/12">
+            <div class="flex flex-col ml-10 mt-10 w-7/12">
                 <h1 class="text-neutral-700 text-[30px] font-semibold text-left ">Fasilitas Non-air</h1>
                 <p class="mt-3 text-gray-500 text-[15px]">
                 Nikmati sensasinya di kolam arus Jembar Waterpark. Anda akan bergerak di atas pelampung sepanjang kolam arus, sambil memandangi keindahan alam di sekitarnya.
