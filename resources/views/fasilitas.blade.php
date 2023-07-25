@@ -44,7 +44,7 @@
                 <p class="mt-3 text-gray-500 text-[15px]">
                     Pada saat musim liburan Jembar Waterpark selalu di padati pengunjung dari berbagai daerah di Indonesia.
                 </p>
-                <a href="#" class="mt-4 text-gray-700 text-[15px] font-semibold">
+                <a href="fasilitas/PatungPatungUnik" class="mt-4 text-gray-700 text-[15px] font-semibold">
                     Baca Selengkapnya
                 </a>
             </div>
