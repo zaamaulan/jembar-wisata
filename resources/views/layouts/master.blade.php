@@ -31,7 +31,36 @@
         @yield('content')
     </main>
     <footer>
-        {{-- Footer here --}}
+        <div class="mt-52"></div>
+        <div class="bg-neutral-800 text-white justify-evenly pt-16">
+            <div class="flex flex-row ml-16">
+                <img src="/logo.png" alt="" class="w-32 mx-12">
+                <h1 class="text-[30px] font-bold text-left">Jembar Raya <br> Waterpark</h1>
+            </div>
+            
+            <div class="container flex justify-item-start justify-evenly capitalize items-center mt-10">
+                <div class="">
+                    <h1 class="text-[30px] font-bold text-left mb-5">Sosial</h1>
+                    <p class="text-[15px] font-medium ">Youtube</p>
+                    <p class="text-[15px] font-medium ">Facebook</p>
+                    <p class="text-[15px] font-medium ">Instagram</p>
+                </div>
+                <div class="">
+                    <h1 class="text-[30px] font-bold text-left mb-5">Kontak</h1>
+                    <p class="text-[15px] font-medium ">Phone: 0852-1212-1000</p>
+                    <p class="text-[15px] font-medium ">Email: jembarpark@gmail.com</p>
+                </div>
+                <div class="w-96">
+                    <h1 class="text-[30px] font-bold text-left mb-5">Alamat</h1>
+                    <p class="text-[15px] font-medium ">Blok Kamis, Ranji Wetan, Kec. Kasokandel, Kabupaten Majalengka, Jawa Barat 45453</p>
+                </div>
+            </div>
+            <br><br><br><br>
+            <div class="container flex capitalize bg-white text-black text-center justify-center py-3">
+                <p class="text-[15px] font-medium">Copyright &copy; 2023 NahlTech. All Rights Reserved.</p>
+            </div>
+        </div>
+        
     </footer>
 </body>
 

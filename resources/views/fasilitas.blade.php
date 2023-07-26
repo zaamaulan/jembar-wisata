@@ -67,9 +67,5 @@
         </div>
     </div>
 
-    <div class="kosong">
-        <p class="h-32">
-    </div>
-
 </section>
 @endsection
