@@ -10,7 +10,7 @@
 </head>
 
 <body>
-    <header class="sticky top-0">
+    <header class="sticky top-0 z-[99]">
         <nav class="flex justify-between items-center text-neutral-700 py-2 bg-white px-[11.5rem] ">
             <a href="/">
                 <div>@include('components.svg.logo')</div>
