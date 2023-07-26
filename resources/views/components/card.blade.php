@@ -1,4 +1,4 @@
-<div class="p-3.5 w-96 bg-white ">
+<div class="p-3.5 w-96 bg-white mx-auto">
     <a href="{{ $href }} /blog" class="flex flex-col gap-y-4">
         <div><img src="blog.png {{ $image }}" alt=""></div>
         <div class="text-center">

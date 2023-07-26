@@ -22,48 +22,50 @@
                 <li><a href="/promo" class="{{ request()->is('promo') ? 'text-sky-400' : '' }}">promo</a></li>
                 <li class="flex items-center"><a href="" class="flex">bantuan @include('components.svg.chevron-right')</a></li>
             </ul>
-            <x-button style="bg-sky-400 text-white" buttonTitle="pesan tiket" href="pesan-tiket"/>
+            <x-button style="bg-sky-400 text-white" buttonTitle="pesan tiket" href="pesan-tiket" />
         </nav>
     </header>
     <main>
-        {{-- Content Section here --}}
         @yield('content')
     </main>
     <footer>
-        <div class="mt-52"></div>
-        <div class="bg-neutral-800 text-white justify-evenly pt-16">
-            <div class="flex flex-row ml-16">
-                <img src="/logo.png" alt="" class="w-32 mx-12">
+        <div class="bg-neutral-800 text-white py-24">
+            <div class="flex items-center gap-x-6 mb-16 px-[11.5rem]">
+                @include('components.svg.logo-image')
                 <h1 class="text-[30px] font-bold text-left">Jembar Raya <br> Waterpark</h1>
             </div>
-            
-            <div class="container flex justify-item-start justify-evenly capitalize items-center` mt-10">
+
+            <div class="flex justify-between px-[11.5rem] capitalize items-center">
                 <div class="">
-                    <h1 class="text-[30px] font-bold text-left mb-5">Sosial</h1>
-                    <a class="text-[15px] font-medium hover:text-sky-400 transition-all ease-in-out" href="https://www.youtube.com/@jembarwaterparkmajalengka6885" target="_blank">Youtube</a>
+                    <h1 class="text-[30px] font-bold text-left mb-3">Sosial</h1>
+                    <a class="text-[15px] font-medium hover:text-sky-400 transition-all ease-in-out"
+                        href="https://www.youtube.com/@jembarwaterparkmajalengka6885" target="_blank">Youtube</a>
                     <br>
-                    <a class="text-[15px] font-medium hover:text-sky-400 transition-all ease-in-out" href="https://web.facebook.com/jembarwaterparkmajalengka" target="_blank">Facebook</a>
+                    <a class="text-[15px] font-medium hover:text-sky-400 transition-all ease-in-out"
+                        href="https://web.facebook.com/jembarwaterparkmajalengka" target="_blank">Facebook</a>
                     <br>
-                    <a class="text-[15px] font-medium hover:text-sky-400 transition-all ease-in-out" href="https://www.instagram.com/jembarwaterpark/" target="_blank">Instagram</a>
+                    <a class="text-[15px] font-medium hover:text-sky-400 transition-all ease-in-out" href="https://www.instagram.com/jembarwaterpark/"
+                        target="_blank">Instagram</a>
                 </div>
                 <div class="">
-                    <h1 class="text-[30px] font-bold text-left mb-5">Kontak</h1>
+                    <h1 class="text-[30px] font-bold text-left mb-3">Kontak</h1>
                     <p class="text-[15px] font-medium ">Phone: 0852-1212-1000</p>
-                    <p class="text-[15px] font-medium ">Email:<a href="https://mail.google.com/mail/u/0/#inbox?compose=CllgCJqXPHkDmNSpgpNzJbzsMtpvjvVKSCdbqCFwDPzPRLXDMxQDGvPLNtTNDVbcpxtRtkNHXHg" class="hover:text-sky-400 transition-all ease-in-out" target="_blank"`>
-                        jembarpark@gmail.com</a>
+                    <p class="text-[15px] font-medium ">Email:<a
+                            href="https://mail.google.com/mail/u/0/#inbox?compose=CllgCJqXPHkDmNSpgpNzJbzsMtpvjvVKSCdbqCFwDPzPRLXDMxQDGvPLNtTNDVbcpxtRtkNHXHg"
+                            class="hover:text-sky-400 transition-all ease-in-out lowercase" target="_blank"`>
+                            jembarpark@gmail.com</a>
                     </p>
                 </div>
                 <div class="w-96">
-                    <h1 class="text-[30px] font-bold text-left mb-5">Alamat</h1>
+                    <h1 class="text-[30px] font-bold text-left mb-3">Alamat</h1>
                     <p class="text-[15px] font-medium ">Blok Kamis, Ranji Wetan, Kec. Kasokandel, Kabupaten Majalengka, Jawa Barat 45453</p>
                 </div>
             </div>
-            <div class="my-24"></div>
-            <div class="container flex capitalize bg-white text-black text-center justify-center py-3 min-w-full">
-                <p class="text-[15px] font-medium">Copyright &copy; 2023 NahlTech. All Rights Reserved.</p>
-            </div>
         </div>
-        
+        <div class="flex capitalize bg-white text-neutral-700 text-center justify-center py-3">
+            <p class="text-base font-medium">Copyright &copy; 2023 NahlTech. All Rights Reserved.</p>
+        </div>
+
     </footer>
 </body>
 
