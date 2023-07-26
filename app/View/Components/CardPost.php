@@ -6,14 +6,19 @@ use Closure;
 use Illuminate\Contracts\View\View;
 use Illuminate\View\Component;
 
-class buttonShowMore extends Component
+class CardPost extends Component
 {
     /**
      * Create a new component instance.
      */
-    public function __construct()
+    public function __construct(
+        public string $image,
+        public string $title,
+        public string $caption,
+        public string $href,
+    )
     {
-        //
+        
     }
 
     /**
@@ -21,6 +26,6 @@ class buttonShowMore extends Component
      */
     public function render(): View|Closure|string
     {
-        return view('components.button-show-more');
+        return view('components.card-post');
     }
 }
