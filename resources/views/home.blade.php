@@ -66,7 +66,7 @@
                     </div>
                     <p class="text-gray-500 text-lg font-medium text-center">Foto-foto di bawah ini menunjukkan pengunjung Jembar Raya Waterpark <br>
                     Majalengka yang sedang menikmati berbagai wahana dan fasilitas yang <br>tersedia di taman air tersebut. Jangan lupa follow Instagram kami.</p>
-                    <div class="h-[1.h5rem]"></div>
+                    <div class="h-[1.5rem]"></div>
                     <div class="">
                     <script src="https://static.elfsight.com/platform/platform.js" data-use-service-core defer></script>
                     <div class="elfsight-app-c0c86c49-430b-4f94-b2b6-81431314e99d"></div>
