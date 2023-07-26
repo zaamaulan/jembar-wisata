@@ -41,21 +41,25 @@
             <div class="container flex justify-item-start justify-evenly capitalize items-center mt-10">
                 <div class="">
                     <h1 class="text-[30px] font-bold text-left mb-5">Sosial</h1>
-                    <p class="text-[15px] font-medium ">Youtube</p>
-                    <p class="text-[15px] font-medium ">Facebook</p>
-                    <p class="text-[15px] font-medium ">Instagram</p>
+                    <a class="text-[15px] font-medium hover:text-sky-400 transition-all ease-in-out" href="https://www.youtube.com/@jembarwaterparkmajalengka6885" target="_blank">Youtube</a>
+                    <br>
+                    <a class="text-[15px] font-medium hover:text-sky-400 transition-all ease-in-out" href="https://web.facebook.com/jembarwaterparkmajalengka" target="_blank">Facebook</a>
+                    <br>
+                    <a class="text-[15px] font-medium hover:text-sky-400 transition-all ease-in-out" href="https://www.instagram.com/jembarwaterpark/" target="_blank">Instagram</a>
                 </div>
                 <div class="">
                     <h1 class="text-[30px] font-bold text-left mb-5">Kontak</h1>
                     <p class="text-[15px] font-medium ">Phone: 0852-1212-1000</p>
-                    <p class="text-[15px] font-medium ">Email: jembarpark@gmail.com</p>
+                    <p class="text-[15px] font-medium ">Email:<a href="https://mail.google.com/mail/u/0/#inbox?compose=CllgCJqXPHkDmNSpgpNzJbzsMtpvjvVKSCdbqCFwDPzPRLXDMxQDGvPLNtTNDVbcpxtRtkNHXHg" class="hover:text-sky-400 transition-all ease-in-out" target="_blank"`>
+                        jembarpark@gmail.com</a>
+                    </p>
                 </div>
                 <div class="w-96">
                     <h1 class="text-[30px] font-bold text-left mb-5">Alamat</h1>
                     <p class="text-[15px] font-medium ">Blok Kamis, Ranji Wetan, Kec. Kasokandel, Kabupaten Majalengka, Jawa Barat 45453</p>
                 </div>
             </div>
-            <br><br><br><br>
+            <div class="my-24"></div>
             <div class="container flex capitalize bg-white text-black text-center justify-center py-3">
                 <p class="text-[15px] font-medium">Copyright &copy; 2023 NahlTech. All Rights Reserved.</p>
             </div>

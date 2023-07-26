@@ -28,7 +28,7 @@
                 <p class="mt-3 text-gray-500 text-[15px]">
                     Sebagaimana namanya, tentu Jember Waterpark menawarkan aneka wahana air yang mengasyikkan. Waterboom, misalnya.
                 </p>
-                <a href="fasilitas/KolamRenangAnak" class="mt-4 text-gray-700 text-[15px] font-semibold">
+                <a href="fasilitas/KolamRenangAnak" class="mt-4 text-gray-700 text-[15px] font-semibold hover:text-sky-500 transition-all ease-in-out">
                     Baca Selengkapnya
                 </a>
             </div>
@@ -44,7 +44,7 @@
                 <p class="mt-3 text-gray-500 text-[15px]">
                     Pada saat musim liburan Jembar Waterpark selalu di padati pengunjung dari berbagai daerah di Indonesia.
                 </p>
-                <a href="fasilitas/PatungPatungUnik" class="mt-4 text-gray-700 text-[15px] font-semibold">
+                <a href="fasilitas/PatungPatungUnik" class="mt-4 text-gray-700 text-[15px] font-semibold hover:text-sky-500 transition-all ease-in-out">
                     Baca Selengkapnya
                 </a>
             </div>
@@ -60,7 +60,7 @@
                 <p class="mt-3 text-gray-500 text-[15px]">
                 Nikmati sensasinya di kolam arus Jembar Waterpark. Anda akan bergerak di atas pelampung sepanjang kolam arus, sambil memandangi keindahan alam di sekitarnya.
                 </p>
-                <a href="fasilitas/FasilitasNonAir" class="mt-4 text-gray-700 text-[15px] font-semibold">
+                <a href="fasilitas/FasilitasNonAir" class="mt-4 text-gray-700 text-[15px] font-semibold hover:text-sky-500 transition-all ease-in-out">
                     Baca Selengkapnya
                 </a>
             </div>
