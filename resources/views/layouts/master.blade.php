@@ -37,7 +37,7 @@
                 <h1 class="text-[30px] font-bold text-left">Jembar Raya <br> Waterpark</h1>
             </div>
             
-            <div class="container flex justify-item-start justify-evenly capitalize items-center mt-10">
+            <div class="container flex justify-item-start justify-evenly capitalize items-center` mt-10">
                 <div class="">
                     <h1 class="text-[30px] font-bold text-left mb-5">Sosial</h1>
                     <a class="text-[15px] font-medium hover:text-sky-400 transition-all ease-in-out" href="https://www.youtube.com/@jembarwaterparkmajalengka6885" target="_blank">Youtube</a>
@@ -59,7 +59,7 @@
                 </div>
             </div>
             <div class="my-24"></div>
-            <div class="container flex capitalize bg-white text-black text-center justify-center py-3">
+            <div class="container flex capitalize bg-white text-black text-center justify-center py-3 min-w-full">
                 <p class="text-[15px] font-medium">Copyright &copy; 2023 NahlTech. All Rights Reserved.</p>
             </div>
         </div>
