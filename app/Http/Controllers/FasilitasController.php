@@ -9,9 +9,9 @@ class FasilitasController extends Controller
 {
     public function index(){
 
-        $fasilitas = Fasilitas::all();
+        // $fasilitas = Fasilitas::all();
 
-        return view('fasilitas', ['fasilitas' => $fasilitas]);
+        return view('fasilitas');
 
     }
 }

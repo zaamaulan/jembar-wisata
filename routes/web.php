@@ -1,23 +1,21 @@
 <?php
 
+use App\Http\Controllers\BlogController;
+use App\Http\Controllers\FasilitasController;
 use App\Http\Controllers\PostController;
+use App\Http\Controllers\PromoController;
+use App\Http\Controllers\TiketController;
 use Illuminate\Support\Facades\Route;
-
-/*
-|--------------------------------------------------------------------------
-| Web Routes
-|--------------------------------------------------------------------------
-|
-| Here is where you can register web routes for your application. These
-| routes are loaded by the RouteServiceProvider and all of them will
-| be assigned to the "web" middleware group. Make something great!
-|
-*/
 
 Route::get('/', function () {
     return view('home');
 });
 
+// Direct to Controller
+Route::get('/fasilitas', [FasilitasController::class, 'index']);
+Route::get('/blog', [BlogController::class, 'index']);
+Route::get('/promo', [PromoController::class, 'index']);
+Route::get('/pesan-tiket', [TiketController::class, 'index']);
 Route::get('/fasilitas', function () {
     return view('fasilitas');
 });
