@@ -80,7 +80,27 @@
                     <x-card-post image="" title="" caption="" href=""/>
                     <x-card-post image="" title="" caption="" href=""/>
                 </div>
-            </div>
+                <div class="h-[100vh]"></div>
+                </div>
+                <!-- start sider -->
+
+                <!-- end slder -->
+            
+            <!-- start insta -->
+            <div class="flex justify-center">
+            <div class="text-center flex-col gap-y-3">
+                    <div>
+                        <span class="text-neutral-700 text-[40px] font-semibold">Galeri </span>
+                        <span class="text-sky-400 text-[40px] font-semibold">Jembar Raya Waterpark</span>
+                    </div>
+                    <p class="text-gray-500 text-lg font-medium text-center">Foto-foto di bawah ini menunjukkan pengunjung Jembar Raya Waterpark <br>
+                    Majalengka yang sedang menikmati berbagai wahana dan fasilitas yang <br>tersedia di taman air tersebut. Jangan lupa follow Instagram kami.</p>
+                    <div class="h-[1.5rem]"></div>
+                    <div class="">
+                    <script src="https://static.elfsight.com/platform/platform.js" data-use-service-core defer></script>
+                    <div class="elfsight-app-c0c86c49-430b-4f94-b2b6-81431314e99d"></div>
+                    </div>
+            <!-- end insta -->
         </div>
     </section>
 @endsection
