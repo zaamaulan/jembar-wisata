@@ -87,7 +87,7 @@
                 <div class="w-[99.2vw]">
                     <div class="container mx-auto grid grid-cols-3 capitalize items-center gap-y-14">
                         @for ($i = 0; $i < 3; $i++)
-                            <x-card image="" title="" caption="" href="" />
+                            <x-card style="" thumbnail="" title="" caption="" href="" />
                         @endfor
                     </div>
                     <div class="flex justify-end pr-[11.5rem] mt-16">

@@ -12,13 +12,12 @@ class Card extends Component
      * Create a new component instance.
      */
     public function __construct(
-        public string $image,
+        public string $thumbnail,
         public string $title,
         public string $caption,
+        public string $style,
         public string $href,
-    )
-    {
-        
+    ) {
     }
 
     /**

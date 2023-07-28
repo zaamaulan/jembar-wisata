@@ -18,7 +18,7 @@
             <ul class="flex capitalize gap-x-32 items-center font-semibold text-base">
                 <li><a href="/" class="{{ request()->is('/') ? 'text-sky-400' : '' }}">home</a></li>
                 <li><a href="/fasilitas" class="{{ request()->is('fasilitas') ? 'text-sky-400' : '' }}">fasilitas</a></li>
-                <li><a href="/blog" class="{{ request()->is('blog') ? 'text-sky-400' : '' }}">blog</a></li>
+                <li><a href="/blog" class="{{ request()->is(['blog']) ? 'text-sky-400' : '' }}">blog</a></li>
                 <li><a href="/promo" class="{{ request()->is('promo') ? 'text-sky-400' : '' }}">promo</a></li>
                 <li class="flex items-center"><a href="" class="flex">bantuan @include('components.svg.chevron-right')</a></li>
             </ul>
