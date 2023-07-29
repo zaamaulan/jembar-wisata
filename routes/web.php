@@ -41,4 +41,6 @@ Route::get('fasilitas/FasilitasNonAir', function () {
     return view('FasilitasNonAir');
 });
 
+Route::get('/signin', [App\Http\Controllers\signinController::class, 'index'])->name('signin');
+
 Route::get('/post', [PostController::class, 'index']); // Post Controller with index function
