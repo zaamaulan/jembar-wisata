@@ -90,30 +90,40 @@
                     <x-button style=" bg-transparant text-neutral-700" buttonTitle="fasilitas lainnya" href="/fasilitas" />
                 </div>
             </div>
-            <div clas>
+            <div class="my-28">
                 <div class="text-center flex flex-col gap-y-3">
-                    <div>
-                        <span class="text-neutral-700 text-[40px] font-semibold">Galeri </span>
-                        <span class="text-sky-400 text-[40px] font-semibold">Jembar Raya Waterpark</span>
+                    <div class="mb-11">
+                        <div>
+                            <span class="text-neutral-700 text-[40px] font-semibold">Galeri </span>
+                            <span class="text-sky-400 text-[40px] font-semibold">Jembar Raya Waterpark</span>
+                        </div>
+                        <p class="text-gray-500 text-base font-normal text-center">Foto-foto di bawah ini menunjukkan pengunjung Jembar Raya Waterpark
+                            Majalengka yang <br> sedang menikmati berbagai wahana dan fasilitas yang tersedia di taman air tersebut. <br> Jangan lupa
+                            follow
+                            Instagram
+                            kami.</p>
                     </div>
-                    <p class="text-gray-500 text-base font-normal text-center">Foto-foto di bawah ini menunjukkan pengunjung Jembar Raya Waterpark
-                        Majalengka yang <br> sedang menikmati berbagai wahana dan fasilitas yang tersedia di taman air tersebut. <br> Jangan lupa follow
-                        Instagram
-                        kami.</p>
-                        <script src="https://static.elfsight.com/platform/platform.js" data-use-service-core defer class></script>
+                    <script src="https://static.elfsight.com/platform/platform.js" data-use-service-core defer class></script>
                     <div class="elfsight-app-c0c86c49-430b-4f94-b2b6-81431314e99d"></div>
                 </div>
-                
-                
+
+
             </div>
-            <div class="bg-zinc-100 flex w-[99.2vw] my-28">
-                <div class="container mx-auto flex justify-between capitalize items-center py-36">
-                    <x-card-post image="" title="" caption="" href=""/>
-                    <x-card-post image="" title="" caption="" href=""/>
-                    <x-card-post image="" title="" caption="" href=""/>
+            <div class="flex flex-col bg-zinc-100 pb-20">
+                <div class="text-center flex flex-col gap-y-3 my-11">
+                    <h1 class="text-neutral-700 text-[40px] font-semibold">Blog</h1>
                 </div>
-            
-            
+                <div class="w-[99.2vw]">
+                    <div class="container mx-auto grid grid-cols-3 capitalize items-center gap-y-14">
+                        @for ($i = 0; $i < 3; $i++)
+                            <x-card image="" title="" caption="" href="" />
+                        @endfor
+                    </div>
+                    <div class="flex justify-end pr-[11.5rem] mt-16">
+                        <x-button style="bg-sky-400 text-white flex justify-end w-fit h-fit" buttonTitle="blog lainnya" href="/blog" />
+                    </div>
+                </div>
+            </div>
         </div>
     </section>
 @endsection
