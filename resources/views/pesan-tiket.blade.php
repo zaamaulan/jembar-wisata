@@ -21,7 +21,7 @@
     <div class="col-span-1"></div>
 
 
-    <div class="col-span-8">
+    <div class="col-span-8 mb-20">
         <div class="grid grid-cols-1 lg:grid-cols-2 gap-16">
             <!-- start form -->
             <div class="grid grid-rows-8 grid-flow-col items-center">
@@ -59,8 +59,6 @@
         </div>
     </div>
 
-
-    <div class="col-span-9"></div>
     </div>
 
     </section>
