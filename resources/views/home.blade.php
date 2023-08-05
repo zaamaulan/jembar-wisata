@@ -1,7 +1,9 @@
 @extends('layouts.master')
 
 @section('title', 'Home')
-@vite('resources/css/app.css')
+@vite(['resources/css/app.css', 'resources/css/style.css'])
+
+
 
 
 @section('content')
@@ -56,8 +58,35 @@
                         dinikmati oleh pengunjung, seperti water slide spiral, water slide straight, dan <br> water slide untuk anak-anak
                     </p>
                 </div>
-                <div class="h-[70vh] flex justify-center items-center text-5xl font-light">here for the slider facility</div>
-                <div class="flex justify-center my-11">
+        
+                <!-- start slider -->
+                <section >
+                <div class="container__slider">
+
+<div class="container-a">
+    <input type="radio" name="slider" id="item-1" checked>
+    <input type="radio" name="slider" id="item-2">
+    <input type="radio" name="slider" id="item-3">
+
+    <div class="cards">
+        <label class="card" for="item-1" id="selector-1">
+            <img src="{{ URL::to('/fasilitas1.png') }}" class="slide-img">
+        </label>
+        <label class="card" for="item-2" id="selector-2">
+            <img src="{{ URL::to('/fasilitas2.png') }}" class="slide-img">
+        </label>
+        <label class="card" for="item-3" id="selector-3">
+        <img src="{{ URL::to('/fasilitas3.png') }}" class="slide-img">
+        </label>
+    </div>
+</div>
+
+</div>
+                </section>
+           
+                <!-- end slider -->
+
+                <div class="flex justify-center mt-5">
                     <x-button style=" bg-transparant text-neutral-700" buttonTitle="fasilitas lainnya" href="/fasilitas" />
                 </div>
             </div>
@@ -98,3 +127,9 @@
         </div>
     </section>
 @endsection
+
+<script type="module" src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"></script>
+    <script nomodule src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"></script>
+    <script src="https://unpkg.com/swiper@8/swiper-bundle.min.js"></script>
+    
+

@@ -28,7 +28,7 @@ Route::get('/pesan-tiket', function () {
     return view('pesan-tiket');
 });
 
-
+// Halaman Admin, Route Grouping
 Route::prefix('admin')->group(function () {
     Route::get('/', function () {
         return view('admin.dashboard');
@@ -43,3 +43,5 @@ Route::prefix('admin')->group(function () {
         return view('admin.promo');
     });
 });
+
+Route::get('/signin', [App\Http\Controllers\signinController::class, 'index'])->name('signin');
