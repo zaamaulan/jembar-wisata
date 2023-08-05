@@ -18,7 +18,7 @@ Route::get('/pesan-tiket', [PostController::class, 'index']);
 Route::get('/promo', [PromoController::class, 'index']);
 // Route::get('/pesan-tiket', [TiketController::class, 'index']);
 Route::get('/fasilitas', function () {
-    return view('fasilitas');
+    return view('fasilitas.index');
 });
 
 Route::get('/promo', function () {
@@ -26,4 +26,20 @@ Route::get('/promo', function () {
 });
 Route::get('/pesan-tiket', function () {
     return view('pesan-tiket');
+});
+
+
+Route::prefix('admin')->group(function () {
+    Route::get('/', function () {
+        return view('admin.dashboard');
+    });
+    Route::get('/blog', function () {
+        return view('admin.blog');
+    });
+    Route::get('/fasilitas', function () {
+        return view('admin.fasilitas');
+    });
+    Route::get('/promo', function () {
+        return view('admin.promo');
+    });
 });

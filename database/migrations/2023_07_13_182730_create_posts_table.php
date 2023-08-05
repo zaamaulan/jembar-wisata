@@ -16,8 +16,8 @@ return new class extends Migration
             $table->id();
             $table->string('judul_post');
             $table->text('isi_post');
-            $table->string('author_post');
             $table->string('slug')->unique();
+            $table->foreignId('user_id')->constrained();
             $table->timestamps();
         });
         DB::statement("ALTER TABLE posts ADD gambar_post LONGBLOB");

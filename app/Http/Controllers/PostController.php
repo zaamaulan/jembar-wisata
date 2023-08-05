@@ -4,6 +4,7 @@ namespace App\Http\Controllers;
 
 use Illuminate\Http\Request;
 use App\Models\Post;
+use App\Models\User;
 
 class PostController extends Controller
 {
@@ -11,11 +12,11 @@ class PostController extends Controller
 
     public function index()
     {
-
     }
 
-    public function show(){
-        $post = Post::all();
-        return view('blog', ['post' => $post, 'author' => $this->author]);
+    public function show()
+    {
+        $posts = Post::with('User')->get();
+        return view('blog', ['posts' => $posts]);
     }
 }
