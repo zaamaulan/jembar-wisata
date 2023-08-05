@@ -2,6 +2,7 @@
 
 use Illuminate\Database\Migrations\Migration;
 use Illuminate\Database\Schema\Blueprint;
+use Illuminate\Support\Facades\DB;
 use Illuminate\Support\Facades\Schema;
 
 return new class extends Migration
@@ -15,11 +16,11 @@ return new class extends Migration
             $table->id();
             $table->string('judul_post');
             $table->text('isi_post');
-            $table->binary('gambar_post')->nullable();
-            $table->string('author_post');
-            $table->string('slug_post');
+            $table->string('slug')->unique();
+            $table->foreignId('user_id')->constrained();
             $table->timestamps();
         });
+        DB::statement("ALTER TABLE posts ADD gambar_post LONGBLOB");
     }
 
     /**
