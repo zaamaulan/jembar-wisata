@@ -106,8 +106,6 @@
                     <script src="https://static.elfsight.com/platform/platform.js" data-use-service-core defer class></script>
                     <div class="elfsight-app-c0c86c49-430b-4f94-b2b6-81431314e99d"></div>
                 </div>
-
-
             </div>
             <div class="flex flex-col bg-zinc-100 pb-20">
                 <div class="text-center flex flex-col gap-y-3 my-11">

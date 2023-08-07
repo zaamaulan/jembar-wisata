@@ -16,11 +16,17 @@
                 <li><a href="/admin/blog">Blog</a></li>
                 <li><a href="/admin/fasilitas">Fasilitas</a></li>
                 <li><a href="/admin/promo">Promo</a></li>
+                <li>
+                    <form action="/logout" method="post">
+                        @csrf
+                        <input type="submit" value="Logout">
+                    </form>
+                </li>
             </ul>
         </nav>
     </aside>
     <main>
-      @yield('content')
+        @yield('content')
     </main>
 </body>
 
