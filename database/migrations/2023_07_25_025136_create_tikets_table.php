@@ -13,6 +13,9 @@ return new class extends Migration
     {
         Schema::create('tikets', function (Blueprint $table) {
             $table->id();
+            $table->string('nama_pemesan');
+            $table->integer('jumlah_pemesanan');
+            $table->string('no_hp_pemesan')->unique();
             $table->timestamps();
         });
     }

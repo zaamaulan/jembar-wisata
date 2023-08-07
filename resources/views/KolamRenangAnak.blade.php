@@ -1,8 +1,6 @@
 @extends('layouts.master')
 
 @section('title', 'Fasilitas')
-@vite('resources/css/app.css')
-
 
 @section('content')
     <section class="mt-20 flex flex-col ">

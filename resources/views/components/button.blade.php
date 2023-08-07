@@ -1,1 +1,0 @@
-<button class="capitalize text-sm font-semibold leading-tigh px-5 py-[10px] rounded-md {{ $style }} "><a href="{{ $href }}">{{ $buttonTitle }}</a></button>

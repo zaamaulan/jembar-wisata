@@ -16,7 +16,7 @@ return new class extends Migration
             $table->id();
             $table->string('judul_post');
             $table->text('isi_post');
-            $table->string('slug')->unique();
+            $table->string('slug')->unique()->nullable();
             $table->foreignId('user_id')->constrained();
             $table->timestamps();
         });
