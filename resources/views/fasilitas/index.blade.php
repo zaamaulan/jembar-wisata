@@ -13,19 +13,17 @@ $dummyData = [['title' => 'Kolam Renang Anak', 'description' => 'Sebagaimana nam
             <h1 class="text-neutral-700 text-[40px] font-semibold text-left">Fasilitas
                 <span class="text-sky-400 text-[40px] font-semibold text-left">Jembar raya Waterpark</span>
             </h1>
-            <p class="text-gray-500 text-lg font-medium text-left">
+            <p class="text-gray-500 text-lg font-medium text-left max-w-4xl">
                 Jembar Raya Waterpark juga memiliki berbagai macam fasilitas dari fasilitas
-                <br>
                 air hingga non-air. Berikut beberapa fasilitas yang ada di Jembar Raya
-                <br>
                 Waterpark
             </p>
         </div>
 
         @foreach ($dummyData as $d)
-        <div class="">
-            <x-fasilitas-card title="{{ $d['title'] }}" description="{{ $d['description'] }}" image="{{ $d['image'] }}" />
-        </div>
+            <div class="">
+                <x-fasilitas-card title="{{ $d['title'] }}" description="{{ $d['description'] }}" image="{{ $d['image'] }}" />
+            </div>
         @endforeach
 
     </section>
