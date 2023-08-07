@@ -16,6 +16,7 @@ Route::get('/', function () {
 Route::get('/fasilitas', [FasilitasController::class, 'index']);
 
 Route::get('/blog', [PostController::class, 'show']);
+Route::get('/blog', [PostController::class, 'slug']);
 Route::get('/pesan-tiket', [PostController::class, 'index']);
 Route::get('/promo', [PromoController::class, 'index']);
 Route::get('/pesan-tiket', [PesanTiketController::class, 'index']);
@@ -56,6 +57,18 @@ Route::prefix('admin')->group(function () {
 
     Route::get('/promo', function () {
         return view('admin.promo.index');
+    })->middleware('auth');
+
+    Route::get('/account', function () {
+        return view('admin.account.index');
+    })->middleware('auth');
+
+    Route::get('/tiket', function () {
+        return view('admin.tiket.index');
+    })->middleware('auth');
+
+    Route::get('/setting', function () {
+        return view('admin.setting.index');
     })->middleware('auth');
 });
 
