@@ -8,4 +8,10 @@ use Illuminate\Database\Eloquent\Model;
 class Tiket extends Model
 {
     use HasFactory;
+
+    protected $fillable = [
+        'nama_pemesan',
+        'jumlah_pemesanan',
+        'no_hp_pemesanan',
+    ];
 }

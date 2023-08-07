@@ -22,7 +22,7 @@
                 <li><a href="/promo" class="{{ request()->is('promo') ? 'text-sky-400' : '' }}">promo</a></li>
                 <li class="flex items-center"><a href="" class="flex">bantuan @include('components.svg.chevron-right')</a></li>
             </ul>
-            <x-button style="bg-sky-400 text-white" buttonTitle="pesan tiket" href="pesan-tiket" />
+            <x-button type="" style="hover:bg-sky-500 bg-sky-400 transition-colors duration-200 text-white" buttonTitle="pesan tiket" href="pesan-tiket" />
         </nav>
     </header>
     <main>

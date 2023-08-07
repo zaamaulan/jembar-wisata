@@ -1,10 +1,6 @@
 @extends('layouts.master')
 
 @section('title', 'Home')
-@vite(['resources/css/app.css', 'resources/css/style.css'])
-
-
-
 
 @section('content')
     <section class="grid grid-cols-1 content-center mt-16">
@@ -17,7 +13,8 @@
                         in Majalengka's Largest Water Park</p>
                 </div>
                 <div class="flex justify-center my-11">
-                    <x-button style="hover:px-9 transition-all ease-in-out bg-sky-400 text-white" buttonTitle="pesan tiket" href="/pesan-tiket" />
+                    <x-button type="" style="hover:px-9 transition-all ease-in-out bg-sky-400 text-white hover:bg-sky-500 bg-sky-400 " buttonTitle="pesan tiket"
+                        href="/pesan-tiket" />
                 </div>
                 <div class="flex justify-center w-full "><img src="/cover.png" alt=""></div>
             </div>
@@ -58,36 +55,36 @@
                         dinikmati oleh pengunjung, seperti water slide spiral, water slide straight, dan <br> water slide untuk anak-anak
                     </p>
                 </div>
-        
+
                 <!-- start slider -->
-                <section >
-                <div class="container__slider">
+                <section>
+                    <div class="container__slider">
 
-<div class="container-a">
-    <input type="radio" name="slider" id="item-1" checked>
-    <input type="radio" name="slider" id="item-2">
-    <input type="radio" name="slider" id="item-3">
+                        <div class="container-a">
+                            <input type="radio" name="slider" id="item-1" checked>
+                            <input type="radio" name="slider" id="item-2">
+                            <input type="radio" name="slider" id="item-3">
 
-    <div class="cards">
-        <label class="card" for="item-1" id="selector-1">
-            <img src="{{ URL::to('/fasilitas1.png') }}" class="slide-img">
-        </label>
-        <label class="card" for="item-2" id="selector-2">
-            <img src="{{ URL::to('/fasilitas2.png') }}" class="slide-img">
-        </label>
-        <label class="card" for="item-3" id="selector-3">
-        <img src="{{ URL::to('/fasilitas3.png') }}" class="slide-img">
-        </label>
-    </div>
-</div>
+                            <div class="cards">
+                                <label class="card" for="item-1" id="selector-1">
+                                    <img src="{{ URL::to('/fasilitas1.png') }}" class="slide-img">
+                                </label>
+                                <label class="card" for="item-2" id="selector-2">
+                                    <img src="{{ URL::to('/fasilitas2.png') }}" class="slide-img">
+                                </label>
+                                <label class="card" for="item-3" id="selector-3">
+                                    <img src="{{ URL::to('/fasilitas3.png') }}" class="slide-img">
+                                </label>
+                            </div>
+                        </div>
 
-</div>
+                    </div>
                 </section>
-           
+
                 <!-- end slider -->
 
                 <div class="flex justify-center mt-5">
-                    <x-button style=" bg-transparant text-neutral-700" buttonTitle="fasilitas lainnya" href="/fasilitas" />
+                    <x-button type="" style=" bg-transparant text-neutral-700" buttonTitle="fasilitas lainnya" href="/fasilitas" />
                 </div>
             </div>
             <div class="my-28">
@@ -118,7 +115,7 @@
                         @endfor
                     </div>
                     <div class="flex justify-end pr-[11.5rem] mt-16">
-                        <x-button style="bg-sky-400 text-white flex justify-end w-fit h-fit" buttonTitle="blog lainnya" href="/blog" />
+                        <x-button type="" style="hover:bg-sky-500 bg-sky-400 transition-colors duration-200 text-white flex justify-end w-fit h-fit" buttonTitle="blog lainnya" href="/blog" />
                     </div>
                 </div>
             </div>
@@ -127,7 +124,5 @@
 @endsection
 
 <script type="module" src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"></script>
-    <script nomodule src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"></script>
-    <script src="https://unpkg.com/swiper@8/swiper-bundle.min.js"></script>
-    
-
+<script nomodule src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"></script>
+<script src="https://unpkg.com/swiper@8/swiper-bundle.min.js"></script>

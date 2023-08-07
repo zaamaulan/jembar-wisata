@@ -15,6 +15,7 @@ class Button extends Component
         public string $style,
         public string $buttonTitle,
         public string $href,
+        public string $type,
     )
     {
         //
@@ -25,6 +26,6 @@ class Button extends Component
      */
     public function render(): View|Closure|string
     {
-        return view('components.button');
+        return view('components.ui.button');
     }
 }
