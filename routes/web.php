@@ -9,30 +9,27 @@ use App\Http\Controllers\TiketController;
 use Illuminate\Support\Facades\Route;
 
 Route::get('/', function () {
-    return view('home');
+    return view('guest.home');
 });
 
 // Direct to Controller
-Route::get('/fasilitas', [FasilitasController::class, 'index']);
+Route::get('/posts', [PostController::class, 'index']);
+Route::get('/posts/{slug}', [PostController::class, 'show']);
 
-Route::get('/blog', [PostController::class, 'show']);
-Route::get('/blog', [PostController::class, 'slug']);
-Route::get('/pesan-tiket', [PostController::class, 'index']);
 Route::get('/promo', [PromoController::class, 'index']);
+
 Route::get('/pesan-tiket', [PesanTiketController::class, 'index']);
 
-Route::get('/fasilitas', function () {
-
-    return view('guest.fasilitas.index');
-});
+Route::get('/fasilitas', [FasilitasController::class, 'index']);
+Route::get('/fasilitas/{id}', [FasilitasController::class, 'show']);
 
 Route::get('/promo', function () {
 
-    return view('promo.index');
+    return view('guest.promo.index');
 });
 Route::get('/pesan-tiket', function () {
 
-    return view('pesan-tiket');
+    return view('guest.tiket.index');
 });
 
 // Login
@@ -47,8 +44,8 @@ Route::prefix('admin')->group(function () {
         return view('admin.dashboard');
     })->middleware('auth');
 
-    Route::get('/blog', function () {
-        return view('admin.blog.index');
+    Route::get('/posts', function () {
+        return view('admin.posts.index');
     })->middleware('auth');
 
     Route::get('/fasilitas', function () {

@@ -55,7 +55,7 @@
                         <label class="px-3 text-xs text-gray-500 uppercase">content</label>
 
                         <a class="flex items-center px-3 py-2 text-neutral-700 transition-colors duration-300 transform rounded-lg hover:text-gray-700"
-                            href="/admin/blog">
+                            href="/admin/posts">
                             <svg class="w-5 h-5" fill="none" height="24" stroke="#404040" stroke-linecap="round" stroke-linejoin="round"
                                 stroke-width="2" viewBox="0 0 24 24" width="24" xmlns="http://www.w3.org/2000/svg">
                                 <path d="M21 15a2 2 0 0 1-2 2H7l-4 4V5a2 2 0 0 1 2-2h14a2 2 0 0 1 2 2z" />

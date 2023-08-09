@@ -5,7 +5,7 @@
         <p class="mt-3 text-gray-500 text-[15px]">
             {{ $description }}
         </p>
-        <a href="fasilitas/KolamRenangAnak" class="mt-4 text-gray-700 text-[15px] font-semibold hover:text-sky-500 transition-all ease-in-out">
+        <a href="{{ $link }}" class="mt-4 text-gray-700 text-[15px] font-semibold hover:text-sky-500 transition-all ease-in-out">
             Baca Selengkapnya
         </a>
     </div>
