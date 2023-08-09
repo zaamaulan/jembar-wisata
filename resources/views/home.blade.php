@@ -57,30 +57,14 @@
                 </div>
 
                 <!-- start slider -->
-                <section>
-                    <div class="container__slider">
-
-                        <div class="container-a">
-                            <input type="radio" name="slider" id="item-1" checked>
-                            <input type="radio" name="slider" id="item-2">
-                            <input type="radio" name="slider" id="item-3">
-
-                            <div class="cards">
-                                <label class="card" for="item-1" id="selector-1">
-                                    <img src="{{ URL::to('/fasilitas1.png') }}" class="slide-img">
-                                </label>
-                                <label class="card" for="item-2" id="selector-2">
-                                    <img src="{{ URL::to('/fasilitas2.png') }}" class="slide-img">
-                                </label>
-                                <label class="card" for="item-3" id="selector-3">
-                                    <img src="{{ URL::to('/fasilitas3.png') }}" class="slide-img">
-                                </label>
-                            </div>
-                        </div>
-
-                    </div>
-                </section>
-
+                <div class="justify-center">
+                <swiper-container class="mySwiper" pagination="true" pagination-clickable="true" navigation="true" space-between="30"
+                loop="false">
+                <swiper-slide><a href="#"><img src="{{ URL::to('/patung.jpg') }}" alt="" class="img"></a></swiper-slide>
+                <swiper-slide><a href="#"><img src="{{ URL::to('/dinosaurus.png') }}" alt="" class="img"></a></swiper-slide>
+                <swiper-slide><a href="#"><img src="{{ URL::to('/saung.jpg') }}" alt="" class="img"></a></swiper-slide>
+                </swiper-container></div>
+           
                 <!-- end slider -->
 
                 <div class="flex justify-center mt-5">
@@ -123,6 +107,4 @@
     </section>
 @endsection
 
-<script type="module" src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"></script>
-<script nomodule src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"></script>
-<script src="https://unpkg.com/swiper@8/swiper-bundle.min.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/swiper@10/swiper-element-bundle.min.js"></script>
