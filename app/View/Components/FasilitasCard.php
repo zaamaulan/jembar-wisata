@@ -15,6 +15,7 @@ class FasilitasCard extends Component
         public string $title,
         public string $description,
         public string $image,
+        public string $link,
     )
     {
         //

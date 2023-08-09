@@ -1,7 +1,3 @@
-<?php
-$dummyData = [['title' => 'Kolam Renang Anak', 'description' => 'Sebagaimana namanya, tentu Jember Waterpark menawarkan aneka wahana air yang mengasyikkan. Waterboom, misalnya', 'image' => 'patung.jpg'], ['title' => 'Patung-patung Unik', 'description' => 'Pada saat musim liburan Jembar Waterpark selalu di padati pengunjung dari berbagai daerah di Indonesia', 'image' => 'patung2.png'], ['title' => 'Fasilitas Non-air', 'description' => 'Nikmati sensasinya di kolam arus Jembar Waterpark. Anda akan bergerak di atas pelampung sepanjang kolam arus, sambil memandangi keindahan alam di sekitarnya', 'image' => 'saung.jpg']];
-?>
-
 @extends('layouts.master')
 
 @section('title', 'Fasilitas')
@@ -19,11 +15,13 @@ $dummyData = [['title' => 'Kolam Renang Anak', 'description' => 'Sebagaimana nam
             </p>
         </div>
 
-        @foreach ($dummyData as $d)
-            <div class="">
-                <x-fasilitas-card title="{{ $d['title'] }}" description="{{ $d['description'] }}" image="{{ $d['image'] }}" />
+        @foreach ($fasilitas as $f)
+            <div>
+                <x-fasilitas-card title="{{ $f->nama_fasilitas }}" description="{{ $f->deskripsi_fasilitas }}" image="/dinosaurus.png"
+                    link="/fasilitas/{{ $f->id }}" />
             </div>
         @endforeach
+
 
     </section>
 @endsection

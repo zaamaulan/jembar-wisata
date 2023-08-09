@@ -13,15 +13,19 @@ class PostController extends Controller
 
     public function index()
     {
-    }
-
-    public function show()
-    {
         $posts = Post::with('User')->get();
-        return view('guest.blog.index', ['posts' => $posts]);
+        return view('guest.posts.index', ['posts' => $posts]);
     }
 
-    public function slug(Request $request){
+    public function show($slug)
+    {
+        $post = Post::where('slug', $slug)->firstOrFail();
+        return view('guest.posts.show', compact('post'));
+    }
+
+
+    public function slug(Request $request)
+    {
         SlugService::createSlug(Post::class, 'slug', $request->judul_post);
         // $slug = SlugService::createSlug(Post::class, 'slug', $request->judul_post);
         // return response()->json(['slug' => $slug]);
