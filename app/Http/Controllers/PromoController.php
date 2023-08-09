@@ -9,6 +9,6 @@ class PromoController extends Controller
 {
     public function index()
     {
-        return view('promo');
+        return view('guest.promo.index');
     }
 }

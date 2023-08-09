@@ -11,7 +11,7 @@ class FasilitasController extends Controller
 
         // $fasilitas = Fasilitas::all();
 
-        return view('fasilitas');
+        return view('guest.fasilitas.index');
 
     }
 }

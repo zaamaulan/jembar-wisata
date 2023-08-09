@@ -18,7 +18,7 @@ class PostController extends Controller
     public function show()
     {
         $posts = Post::with('User')->get();
-        return view('blog', ['posts' => $posts]);
+        return view('guest.blog.index', ['posts' => $posts]);
     }
 
     public function slug(Request $request){

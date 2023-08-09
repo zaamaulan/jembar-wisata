@@ -23,7 +23,7 @@ Route::get('/pesan-tiket', [PesanTiketController::class, 'index']);
 
 Route::get('/fasilitas', function () {
 
-    return view('fasilitas.index');
+    return view('guest.fasilitas.index');
 });
 
 Route::get('/promo', function () {
