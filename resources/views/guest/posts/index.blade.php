@@ -16,7 +16,7 @@
                     {{-- <x-card style="shadow-lg h-[30rem]" title="{{ $p->judul_post }}" thumbnail="blog.png" caption="{{ $p->isi_post }}" href="/blog/{$slug}" /> --}}
                     <p>{{ $post->judul_post }}</p>
                     <p>{{ $post->isi_post }}</p>
-                    <p>{{ $post->slug }}</p>
+                    <a href="/posts/{{ $post->slug }}" class="bg-sky-400 px-4 py-2 w-fit h-fit">Selengkapnya</a>
                     <p>{{ $post->user_id }}</p>
                     <p>{{ $post->user['name'] }}</p>
                 @endforeach
