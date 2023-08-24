@@ -17,7 +17,7 @@
 
         @foreach ($fasilitas as $f)
             <div>
-                <x-fasilitas-card title="{{ $f->nama_fasilitas }}" description="{{ $f->deskripsi_fasilitas }}" image="/dinosaurus.png"
+                <x-fasilitas-card title="{{ $f->nama_fasilitas }}" description="{{ $f->deskripsi_fasilitas }}" image="dinosaurus.png"
                     link="/fasilitas/{{ $f->id }}" />
             </div>
         @endforeach
